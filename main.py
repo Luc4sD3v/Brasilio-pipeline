@@ -75,8 +75,8 @@ def converter_para_parquet():
 if __name__ == "__main__":
     print("🚀 Iniciando pipeline automatizada (até página 1000)...")
     try:
-        baixar_dados(limite_paginas=1000)   # baixa até a página 1000
-        converter_para_parquet()            # converte automaticamente depois
+        baixar_dados(limite_paginas=1000)   
+        converter_para_parquet()            
         print("🎉 Pipeline finalizada com sucesso!")
     except Exception as e:
         print(f"❌ Erro durante a execução: {e}")
