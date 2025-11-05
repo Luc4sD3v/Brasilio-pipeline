@@ -11,7 +11,11 @@ Criar uma pipeline em Python que:
 ## Estrutura de Pastas
 
 dataset/
+
 ├── raw/ → dados brutos (.json)
+
 ├── bronze/ → dados processados (.parquet)
+
 ├── silver/ → camada intermediária (reservada)
+
 └── gold/ → camada final (reservada)
