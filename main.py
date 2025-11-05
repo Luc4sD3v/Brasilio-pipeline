@@ -6,7 +6,7 @@ from pathlib import Path
 
 # === CONFIGURAÇÃO ===
 BASE_URL = "https://brasil.io/api/v1/dataset/gastos-diretos/gastos/data"
-TOKEN = "d6d2296cab66c45370c38ff261e14fb1cab23bcf" 
+TOKEN = "TOKEN AQUI" 
 HEADERS = {"Authorization": f"Token {TOKEN}"}
 
 # === ESTRUTURA DE PASTAS ===
